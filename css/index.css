@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: #1b4a49;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+a {
+    color: white;
+}
+
+.header {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+    background: url("/images/background.png");
+    background-position: center;
+    background-size: cover;
+}
+.header-logo {
+    height: 100px;
+    transition: 1s;
+    border-radius: 50%;
+}
+.header-logo:hover {
+    transform: rotate(360deg);
+}
+
+.download-button {
+    background: #356d6d;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.25s;
+    margin: 3px;
+    white-space: nowrap;
+}
+.download-button:hover {
+    box-shadow: 0 0 10px white;
+}
+
+.content {
+    width: 680px;
+    padding: 10px;
+    margin: auto;
+}
+
+.footer {
+    text-align: center;
+    background-color: #356d6d;
+    padding-bottom: 10px;
+}
+.footer-image {
+    height: 80px;
+}
+
+.screenshots {
+    text-align: center;
+}
+.screenshot {
+    height: 100px;
+    transition: 0.25s;
+}
+.screenshot:hover {
+    transform: scale(0.96);
+    opacity: 70%;
+}
+
+.language-switcher {
+    position: absolute;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 680px) {
+    .content {
+        width: auto;
+    }
+}

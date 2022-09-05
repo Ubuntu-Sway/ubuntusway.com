@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: #1b4a49;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 150px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+a {
+    color: white;
+}
+
+.header {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    text-align: center;
+    background: url("/images/background.png");
+    background-position: center;
+    background-size: cover;
+}
+.download-button {
+    background: #356d6d;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.25s;
+    margin: 3px;
+}
+.download-button:hover {
+    box-shadow: 0 0 10px white;
+}
+
+.content {
+    width: 680px;
+    padding: 10px;
+    margin: auto;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #356d6d;
+    padding-bottom: 10px;
+}
+.footer-image {
+    height: 80px;
+}
+
+svg {
+    fill: white;
+    height: 32px;
+}
+
+table {
+    margin: auto;
+    margin-top: 5vh;
+}
+td {
+    padding: 5px;
+}
+
+.language-switcher {
+    position: absolute;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 680px) {
+    .content {
+        width: auto;
+    }
+}
