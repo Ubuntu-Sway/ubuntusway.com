@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-
 body {
     margin: 0;
     padding: 0;
@@ -50,6 +48,7 @@ a {
     width: 680px;
     padding: 10px;
     margin: auto;
+    padding-bottom: 100px;
 }
 
 .footer {
@@ -71,11 +70,6 @@ a {
 .screenshot:hover {
     transform: scale(0.96);
     opacity: 70%;
-}
-
-.language-switcher {
-    position: absolute;
-    padding: 10px;
 }
 
 @media only screen and (max-width: 680px) {
