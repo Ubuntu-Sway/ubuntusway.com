@@ -56,49 +56,29 @@
               <li>Many customizations for comfortable use of Sway</li>
               <li>Ready to use out of the box</li>
             </ul>
-            <p>Included apps:</p>
-            <table style="width: 100%"><tr valign="top">
-            <td>
-              <ul>
-                <li><a href="https://github.com/nwg-piotr/azote" target="_blank">Azote</a></li>
-                <li><a href="https://github.com/nwg-piotr/autotiling" target="_blank">Autotiling</a></li>
-                <li><a href="https://github.com/sentriz/cliphist" target="_blank">Cliphist</a></li>
-                <li>Firefox</li>
-                <li>Flatpak</li>
-                <li><a href="https://codeberg.org/dnkl/foot" target="_blank">Foot</a></li>
-                <li>Gimp</li>
-                <li>Gparted</li>
-                <li><a href="https://sr.ht/~kennylevinsen/greetd/" target="_blank">Greetd</a></li>
-                <li><a href="https://github.com/swaywm/sway/blob/master/contrib/grimshot" target="_blank">Grimshot</a></li>
-                <li>htop</li>
-                <li><a href="https://git.sr.ht/~emersion/kanshi" target="_blank">Kanshi</a></li>
-                <li><a href="https://github.com/pimutils/khal" target="_blank">Khal</a></li>
-                <li>LibreOffice</li>
-                <li><a href="https://github.com/neovim/neovim" target="_blank">Neovim</a></li>
-                <li>Pavucontrol</li>
-            </ul>
-          </td>
-          <td>
+            <p>System requirements:</p>
             <ul>
-                <li>Pluma</li>
-                <li><a href="https://sr.ht/~kennylevinsen/poweralertd/" target="_blank">Poweralertd</a></li>
-                <li>Pulsemixer</li>
-                <li><a href="https://github.com/artemsen/swayimg" target="_blank">Swayimg</a></li>
-                <li>Ranger</li>
-                <li>Thunar</li>
-                <li>Thunderbird</li>
-                <li><a href="https://github.com/apognu/tuigreet" target="_blank">Tuigreet</a></li>
-                <li><a href="https://github.com/nwg-piotr/nwg-wrapper" target="_blank">nwg-wrapper</a></li>
-                <li><a href="https://github.com/nwg-piotr/nwg-drawer" target="_blank">nwg-drawer</a></li>
-                <li>Ubuntu Driver Manager</li>
-                <li>Waybar</li>
-                <li><a href="https://github.com/luispabon/wdisplays" target="_blank">Wdisplays</a></li>
-                <li><a href="https://github.com/ammen99/wf-recorder" target="_blank">wf-recorder</a></li>
-                <li><a href="https://sr.ht/~emersion/wlr-randr/" target="_blank">wlr-randr</a></li>
-                <li><a href="https://github.com/pwmt/zathura" target="_blank">Zathura</a></li>
+              <li>CPU: Dual-core CPU with 1.6 GHz</li>
+              <li>RAM: 1 GB</li>
+              <li>Storage space: 20 GB</li>
+              <li>GPU: Any Intel or AMD gpu (Nvidia cards required additional settings and <b>NOT</b> officially supported.
+                  <a href="https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/wiki/Nvidia-cards" style="margin: 2px">See</a> for details.)</li>
             </ul>
-          </td>
-        </tr></table>
+            <p>Raspberry Pi:</p>
+            <ul>
+              <li>Supported models: 3b, 3b+, 4 and 400 (arm64 only)</li>
+              <li>microSD card: 8 GB required</li>
+              <li>Required good CPU heatsink</li>
+            </ul>
+            <p>Installation:</p>
+            <ul>
+              <li>Download image from downloads page</li>
+              <li>Create bootable USB stick using <a href="https://www.balena.io/etcher/" style="margin: 2px">Etcher</a> or similar tool</li>
+              <li>Click "Run Calamares installer" in Ubuntu Sway Welcome app (on Ubuntu Sway Remix 22.04 the installer will run automatically after boot to desktop)</li>
+              <li>Follow through installation process. Installation is pretty straightforward and takes 10-20 minutes depending on your storage device speed.
+                  Check out our <a href="https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/wiki/FAQ" style="margin: 2px">FAQ</a> for additional hints.</li>
+              <li><b>NOTE:</b> there are currently problems installing using partition encryption. Use at your own risk!</li>
+            </ul>
         </div>
         <div class="footer">
             <img src="/images/welcome.png" class="footer-image" /><br />
